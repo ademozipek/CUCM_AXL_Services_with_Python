@@ -16,6 +16,8 @@ You can filter the search by specifying the allowed arguments in **search_criter
 
 Likewise, **returned_tags** can be used to filter the fields to be shown in the results.
 
+**service.getPhone(name='PHONENAME')** command gets phone details.
+
 ### Adding Phones
 
 We define all the arguments we want, especially the required fields, in the **add_phone_data** variable. After adding, it returns device's uuid.
