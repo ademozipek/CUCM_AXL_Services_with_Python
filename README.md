@@ -23,3 +23,4 @@ We define all the arguments we want, especially the required fields, in the **ad
 ### Updating Phones
 
 After defining the **uuid** or **name** of the device whose information we want to change, we define all the arguments we want to update in **update_phone_data**. 
+If you want to trigger **Apply Config**, use this command: **service.applyPhone(name='PHONENAME')**
